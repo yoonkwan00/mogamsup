@@ -1,4 +1,4 @@
-'use client'; // useState 같은 클라이언트 기능을 쓰기 위해 반드시 최상단에 추가!
+'use client'; // useState 같은 클라이언트 기능을 쓰기 위해 반드시 최상단에 추가     
 
 import { useState } from 'react';
 
@@ -42,7 +42,7 @@ export default function SpecPage() {
             name="school"
             value={formData.school}
             onChange={handleChange}
-            placeholder="예: 한국대학교"
+            placeholder="예: 전남대학교"
             className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none text-black"
           />
         </div>
@@ -54,7 +54,7 @@ export default function SpecPage() {
             name="major"
             value={formData.major}
             onChange={handleChange}
-            placeholder="예: 컴퓨터공학부"
+            placeholder="예: 인공지능학부"
             className="w-full p-3 border rounded-lg text-black"
           />
         </div>
